@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Railway Deployment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f4f6;
+    }
+    h1 {
+      color: #2c3e50;
+      margin-top: 20px;
+    }
+    p {
+      color: #7f8c8d;
+      margin: 10px 0;
+    }
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Railway Test App</h1>
+  <p>If you see this page, your deployment is working correctly!</p>
+  <button onclick="alert('Deployment Successful!')">Click Me</button>
+</body>
+</html>
